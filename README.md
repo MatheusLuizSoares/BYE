@@ -66,6 +66,10 @@ BYE/
 <img width="894" height="512" alt="image" src="https://github.com/user-attachments/assets/2315293f-d55c-4710-9936-45ebe5f842fa" />
 
 
+## DOCKER Setup:
+<img width="1581" height="722" alt="Captura de tela 2025-11-23 144915" src="https://github.com/user-attachments/assets/9e0efd8f-07fc-4b6d-a186-088ff54f167a" />
+
+
 ---
 
 ##  Tecnologias Utilizadas
