@@ -1,4 +1,4 @@
-services:  
+services:
   portal_c1:
     image: nginx:alpine
     volumes:
@@ -12,7 +12,7 @@ services:
       context: ./proxy
       dockerfile: dockerfile
     ports:
-      - "8080:80"     # proxy escuta no host pela porta 8080
+      - "8080:80"
     networks:
       - bye_net
 
@@ -49,7 +49,7 @@ services:
       db:
         condition: service_healthy
     healthcheck:
-      test: ["CMD", "wget", "-qO-", "http://localhost:8000/health" ]
+      test: ["CMD-SHELL", "wget -qO- http://localhost:8000/health || exit 1"]
       interval: 5s
       timeout: 3s
       retries: 5
@@ -61,7 +61,7 @@ services:
     image: salesfilho/sign-app:latest
     container_name: sign-app
     ports:
-      - "8081:80"   # frontend acessível em localhost:8081
+      - "8081:80"
     depends_on:
       backend:
         condition: service_healthy
