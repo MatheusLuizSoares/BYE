@@ -1,5 +1,5 @@
 # Projeto Final - Administração de Sistemas Abertos (ASA)
-Alunos> Matheus Luiz, Pedro, Lindemberg
+Alunos: Matheus Luiz, Pedro, Lindemberg
 ##  Descrição
 Este projeto consiste na **implementação de um Provedor de Serviços de Internet (ISP) usando arquitetura baseada em microsserviços**, empregando ferramentas de **Infraestrutura como Código (IaC)** e práticas **DevOps**.  
 O objetivo é oferecer para cada cliente serviços de DNS, e-mail e proxy reverso HTTP com **isolamento, segurança e criptografia**.
